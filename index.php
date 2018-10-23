@@ -2,14 +2,14 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>チャット</title>
+	<title>DB Config</titile>
 </head>
  
 <body>
      
  
  
-<h1>チャット</h1>
+<h1>DB Config</h1>
  
  
  
@@ -25,7 +25,7 @@
 	
         <h2>実行履歴<h2><br>
 <?php
-
+	echo "実行SQL";
 ?>
 
  

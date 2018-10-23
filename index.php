@@ -17,7 +17,7 @@
      
  
  
-  <form method="post" action="chat.php">
+  <form method="post" action="index.php">
         名前　　　　<input type="text" name="name">
         メッセージ　<input type="text" name="message">
  

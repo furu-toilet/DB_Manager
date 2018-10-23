@@ -31,7 +31,7 @@ Class Common {
 			
 	
 	}catch(PDOExeption $e){
-	var_dump(PDO::errorInfo());	//ErrInfo
+	//var_dump(PDO::errorInfo());	//ErrInfo
 	//print_r($this->stmt->errorInfo());	//エラーメッセージ取得
 	exit('SQL Error or PHP Error(Common.php"furusawa") :' .$e->getMessage());
 	}

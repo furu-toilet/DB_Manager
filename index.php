@@ -28,7 +28,7 @@
         <?php // DBからデータ(投稿内容)を取得 $stmt = select(); foreach ($stmt->fetchAll(PDO::FETCH_ASSOC) as $message) {
                 // 投稿内容を表示
                 //require_once "Common.php";
-                
+                /*
                 echo $message['time'],"：　",$message['name'],"：",$message['message'];
                 echo nl2br("\n");
             }
@@ -81,7 +81,7 @@
                 $stmt = $dbh->prepare($sql);
                 $params = array(':name'=>$_POST['name'], ':message'=>$_POST['message']);
                 $stmt->execute($params);
-            }
+            }*/
         ?>
     </section>
   </form>

@@ -17,7 +17,7 @@
      
  
  
-  	<form method="post" action="execute.php">
+  	<form method="post" action="db_execute.php">
 		<input type="textarea" name="sql">
 		<br>
 		<button name="send" type="submit">送信</button>

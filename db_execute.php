@@ -14,6 +14,6 @@ isset($_POST['send']){  //実行ボタンが押されたら
   
 }
 
-header("./index.php") ;
+header("./index.php") ;       //ページの遷移先指定
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 /* 実行ボタンを押したときの動作PHPファイル　　※画面戻り先リンク要指定 */
-
+/*
 isset($_POST['send']){  //実行ボタンが押されたら
   $sql = $_POST['sql'];   //入力されたSQL文
   require_once "Common.php";
@@ -15,5 +15,5 @@ isset($_POST['send']){  //実行ボタンが押されたら
 }
 
 header("./index.php") ;       //ページの遷移先指定
-
+*/
 ?>

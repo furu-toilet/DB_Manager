@@ -17,7 +17,7 @@
     while ($line = fgets($file)) {
       echo "$line<br />";
     }
-  fclose($fp);
+  fclose($file);
   
   
 //}

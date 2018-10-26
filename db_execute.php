@@ -14,6 +14,6 @@
   
 //}
 
-header("./index.php") ;       //ページの遷移先指定
+//header("./index.php") ;       //ページの遷移先指定
 
 ?>

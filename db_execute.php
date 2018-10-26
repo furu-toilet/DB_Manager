@@ -1,7 +1,7 @@
 <?php
 /* 実行ボタンを押したときの動作PHPファイル　　※画面戻り先リンク要指定 */
 
-isset($_POST['sql_submit']){  //実行ボタンが押されたら
+if(isset($_POST['sql_submit'])){  //実行ボタンが押されたら
   $sql = $_POST['sql'];   //入力されたSQL文
   require "Common.php";
   $dbm = new Common();    //インスタンス＆コンストラクタ実行　接続OK

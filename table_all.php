@@ -7,16 +7,22 @@ $sql = "select pg_statio_user_tables.relname
         and pg_catalog.pg_statio_user_tables.relid=pg_catalog.pg_class.relfilenode;";   //テーブル一覧を取得（名前のみ）
 
 $db = new Common();
-$tbal = $db->db_sql($sql);           //テーブル一覧を取得（名前のみ）
+$tbal = $db->db_sql($sql);           //テーブル一覧を取得（名前のみ） 
+$list = null;
 
+$cnt = 0;
 foreach($tbal as $value){
-        echo $value['relname'];
+        $list[$cnt] = $value['relname'];
+        $cnt++;
 }
 
-//var_dump($tbal);
 
 
 
-$$db->db_close();
+var_dump($list);
+
+
+
+$db->db_close();
 
 ?>

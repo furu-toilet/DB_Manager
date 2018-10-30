@@ -18,8 +18,10 @@ foreach($tbal as $value){
 }
 $cnt = 0;
 foreach($list as $value){
-        echo $value;
-        $tbl_lst[$cnt] = $db->db_sql("select * from " . $value . ";");
+        //echo $value;
+        //$tbl_lst[$cnt] = 
+        var_dump($db->db_sql("select * from " . $value . ";"));
+        echo "</br>";
 }
 
 

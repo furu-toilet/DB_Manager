@@ -13,7 +13,7 @@
   fwrite($file,"テストテキスト");
   fclose($file);
   */
-  $file = fopen("db_logs.txt","r");             // 読み込みモード
+  $file = fopen("./db_logs.txt","r");             // 読み込みモード
     while ($line = fgets($file)) {
       echo "$line<br />";
     }

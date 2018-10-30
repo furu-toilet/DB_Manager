@@ -8,11 +8,11 @@
   
   $dbm->db_sql_only("tail -f $PGDATA/pg_log/postgresql-Mon.log");   //取得SQL実行
   //$dbm->db_sql("");         //現在未実装、Log表示用のSQLを挿入
-  /*
-  $file = fopen("db_logs.txt","w");     //書き込みモード
+  
+  $file = fopen("./db_logs.txt","w");     //書き込みモード
   fwrite($file,"テストテキスト");
   fclose($file);
-  */
+  
   $file = fopen("./db_logs.txt","r");             // 読み込みモード
     while ($line = fgets($file)) {
       echo "$line<br />";

@@ -11,7 +11,7 @@
       <h1>DB Config</h1>
     </header>
     <div class="left">
-      <form method="post" action="db_execute.php" name="SQL_sendform">
+      <form method="post" action="table_all.php" name="SQL_sendform">
         <h2>SQL</h2>
         <textarea class="sendarea" name="sql"></textarea><br>
         <div class="left-inputarea">

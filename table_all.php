@@ -10,10 +10,10 @@ $db = new Common();
 $tbal = $db->db_sql($sql);           //テーブル一覧を取得（名前のみ）
 
 foreach($tbal as $value){
-        echo $value;
+        echo $value['relname'];
 }
 
-var_dump($tbal);
+//var_dump($tbal);
 
 
 

@@ -13,7 +13,7 @@ foreach($tbal as $value){
         echo $value;
 }
 
-
+var_dump($tbal);
 
 
 

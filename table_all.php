@@ -9,17 +9,22 @@ $sql = "select pg_statio_user_tables.relname
 $db = new Common();
 $tbal = $db->db_sql($sql);           //テーブル一覧を取得（名前のみ） 
 $list = null;
+$tbl_lst = null;
 
 $cnt = 0;
 foreach($tbal as $value){
         $list[$cnt] = $value['relname'];
         $cnt++;
 }
+$cnt = 0;
+foreach($list as $value){
+        $tbl_lst[$cnt] = $db->db_sql("select * from " . $value . ";");
+}
 
 
 
 
-var_dump($list);
+var_dump($tbl_lst);
 
 
 

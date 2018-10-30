@@ -20,6 +20,7 @@ $cnt = 0;
 foreach($list as $value){
         //echo $value;
         $tbl_lst[$cnt] = $db->db_sql("select * from " . $value . ";");
+        $cnt++;
 }
 
 

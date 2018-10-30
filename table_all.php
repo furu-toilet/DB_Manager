@@ -1,5 +1,5 @@
 <?php
-require_once "Common.php";
+require "Common.php";
 
 $sql = "select pg_statio_user_tables.relname
         from pg_catalog.pg_class,pg_catalog.pg_statio_user_tables

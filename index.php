@@ -21,7 +21,18 @@
       </form>
       <div id="log">
         <h2>実行ログ</h2>
-        <textarea class="log" rows=20 cols=60></textarea>
+        <textarea class="log" rows=20 cols=60>
+        aaaa
+        bbbbb
+          
+        bbb
+          
+          
+        ccccc  
+        
+        
+        fdafadfadf
+        </textarea>
       </div>
     </div>
     <iframe class="rightframe" src="right.html"></iframe>
